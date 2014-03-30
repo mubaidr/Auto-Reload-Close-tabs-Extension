@@ -1,0 +1,93 @@
+<html>
+
+<head>
+	<title>License Preserver v1.5</title>
+	<link rel="stylesheet" href="options.css" />
+	<script type="text/javascript" src="jquery.js"></script>
+</head>
+
+<body>
+	<div id="mainContent">
+
+		<div id="title">License Preserver v1.5 - Options</div>
+		<hr>
+		<div id="domainContent" class="boxContent">
+			<div class="validateBox">
+				<div id="subTitle">Change remote server</div>
+				<div id="inputTiming">
+					<span>Address:</span>
+					<input type="text" name="adminSec" id="adminSec">
+					<button id="timeInterval">Validate and Set</button>
+				</div>
+			</div>
+			<hr>
+			<div id="menu">
+				<div id="closeOnglet" class="title selected">Close Tabs</div>
+				<div id="updateOnglet" class="title">Update Tabs</div>
+				<div class="clear"></div>
+			</div>
+			<div class="onglet" id="close">
+
+				<div class="inputBox">
+					<div id="subTitle">Domain name</div>
+					<div id="inputDomain">
+						<input type="text" name="fname" id="newdomain" placeholder="Add domain">
+					</div>
+				</div>
+				<div class="inputBox">
+					<div id="subTitle">Closing timing</div>
+					<div id="inputTiming">
+						<span>Minutes before tab will close:</span>
+						<input type="text" name="sec" id="sec">
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="validateBox">
+					<!-- <div id="addDomain" class="smallButton">Add this domain</div> -->
+					<button id="addDomain">Add this domain</button>
+				</div>
+				<div id="timingContent" class="boxContent">
+
+					<div id="domain"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+
+			</div>
+			<div class="onglet hide" id="update">
+				<div class="inputBox">
+					<div id="subTitle">Domain name</div>
+					<div id="inputDomainUp">
+						<input type="text" name="fname" id="newdomainUp" placeholder="Add domain">
+					</div>
+				</div>
+				<div class="inputBox">
+					<div id="subTitle">Update timing</div>
+					<div id="inputTiming">
+						<span>Minutes before updating tab:</span>
+						<input type="text" name="secUp" id="secUp">
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="validateBox">
+					<!-- <div id="addDomain" class="smallButton">Add this domain</div> -->
+					<button id="addDomainUp">Add this domain</button>
+				</div>
+				<div id="timingContentUp" class="boxContent">
+
+					<div id="domainUp"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div id="saveContent">
+				<!-- <button id="save">Save settings</button> -->
+				<div id="status"></div>
+			</div>
+		</div>
+
+	</div>
+</body>
+<script type="text/javascript" src="options.js"></script>
+
+</html>

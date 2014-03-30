@@ -1,0 +1,18 @@
+var banner = document.createElement("div");
+banner.id = "update_banner_notify";
+banner.innerHTML = "This tab will be updated in ten seconds.";
+//banner.style.display = "none";
+banner.style.position = "absolute";
+banner.style.zIndex = "999";
+banner.style.top = 0;
+banner.style.left = 0;
+banner.style.width = "100%";
+banner.style.padding = "10px 0";
+banner.style.backgroundColor = "green";
+banner.style.color = "white";
+banner.style.fontWeight = "bold";
+banner.style.fontSize = "large";
+banner.style.opacity = "0.5";
+banner.style.textAlign = "center";
+banner.style.transition = "all 1s ease";
+document.body.appendChild(banner);

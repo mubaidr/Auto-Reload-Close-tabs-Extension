@@ -1,0 +1,25 @@
+{
+	"name": "License Preserver",
+	"description": "Close or Reload specific tabs after a certain amout of time. Copyright Positive Flux LLC 2013",
+	"version": "1.65",
+	"manifest_version": 2,
+	"icons": {
+		"16": "img/icon16.png",
+		"48": "img/icon48.png",
+		"128": "img/icon128.png"
+	},
+	"background": {
+		"scripts": ["jquery.js", "background.js"],
+		"persistent": true
+	},
+	"permissions": [
+    "tabs", "http://*/*", "https://*/*", "storage"
+  ],
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["hack.js"]
+    }
+  ],
+	"options_page": "options.html"
+}

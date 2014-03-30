@@ -1,0 +1,265 @@
+body {
+	background: rgb(223, 223, 223);
+	font-family: verdana;
+	font-size: 13px;
+}
+#mainContent {
+	position: absolute;
+	left: 50%;
+	width: 620px;
+	border: solid rgb(155, 155, 155) 1px;
+	padding: 10px;
+	margin-left: -250px;
+	background: white;
+	box-shadow: 0px 0px 8px rgb(88, 88, 88);
+	top: 5%;
+}
+.clear {
+	clear: both;
+}
+#saveContent {
+	margin-top: 20px;
+}
+#save {
+	position: relative;
+	left: 50%;
+	width: 80px;
+	height: 35px;
+	margin-left: -40px;
+}
+#status {
+	width: 100%;
+	text-align: center;
+	padding-top: 4px;
+	color: green;
+}
+#title {
+	font-size: 28px;
+	padding: 13px 0 13px 0;
+}
+hr {
+	height: 1px;
+	background: silver;
+	border: none;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+#subTitle {
+	margin-top: 5px;
+	font-weight: bold;
+}
+.domain {
+	width: 95%;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	float: left;
+	cursor: pointer;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #9acc85;
+	box-shadow: inset 0px 1px 0px 0px #9acc85;
+	background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color: #74ad5a;
+	border: 1px solid #3b6e22;
+	color: white;
+}
+.domainUp {
+	width: 95%;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	float: left;
+	cursor: pointer;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #9acc85;
+	box-shadow: inset 0px 1px 0px 0px #9acc85;
+	background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color: #74ad5a;
+	border: 1px solid #3b6e22;
+	color: white;
+}
+.domainAdmin {
+	width: 95%;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	float: left;
+	cursor: not-allowed;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #CC8585;
+	box-shadow: inset 0px 1px 0px 0px #CC8585;
+	background: linear-gradient(to bottom, #CC7777 5%, #C76363 100%);
+	background-color: #AD5A5A;
+	border: 1px solid #6E2222;
+	color: white;
+}
+input#newdomain {
+	float: left;
+	margin: 2px 4px 2px 0;
+	width: 280px;
+	padding: 2px 0 2px 3px;
+	height: 24px;
+}
+input#newdomainUp {
+	float: left;
+	margin: 2px 4px 2px 0;
+	width: 280px;
+	padding: 2px 0 2px 3px;
+	height: 24px;
+}
+.smallButton {
+	-webkit-box-shadow: inset 0px 1px 0px 0px #D1D1D1;
+	box-shadow: inset 0px 1px 0px 0px #ECECEC;
+	background: linear-gradient(to bottom, #E9E9E9 5%, #CCCCCC 100%);
+	background-color: #D8D8D8;
+	border: 1px solid #949494;
+	display: inline-block;
+	color: #000000;
+	font-family: arial;
+	font-size: 13px;
+	padding: 6px 28px;
+	margin-top: 2px;
+	text-decoration: none;
+	cursor: pointer;
+}
+#inputDomain {
+	height: 30px;
+	margin: 10px 0 10px 0;
+}
+#inputDomainUp {
+	height: 30px;
+	margin: 10px 0 10px 0;
+}
+.boxContent {
+	margin-top: 10px;
+}
+#sec {
+	width: 45px;
+	text-align: right;
+	padding-right: 4px;
+}
+#secUp {
+	width: 45px;
+	text-align: right;
+	padding-right: 4px;
+}
+.inputBox {
+	float: left;
+	width: 285px;
+	height: 70px;
+	background: rgb(240, 240, 240);
+	padding: 10px;
+	border-radius: 7px;
+	margin-right: 5px;
+}
+#inputTiming {
+	padding: 11px 0;
+}
+#inputTimingUp {
+	padding: 11px 0;
+}
+.validateBox {
+	width: 596;
+	background: rgb(240, 240, 240);
+	padding: 10px;
+	border-radius: 7px;
+	margin-top: 5px;
+	text-align: center;
+}
+.name {
+	float: left;
+	width: 80%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.nameUp {
+	float: left;
+	width: 80%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.minuts {
+	float: right;
+}
+.minutsUp {
+	float: right;
+}
+.domain:hover .minuts {
+	display: none;
+}
+.domainUp:hover .minutsUp {
+	display: none;
+}
+.domain:hover .close {
+	display: block;
+}
+.domainUp:hover .close {
+	display: block;
+}
+.close {
+	display: none;
+	float: right;
+	padding-right: 4px;
+}
+#addDomain {
+	padding: 10px 40px;
+}
+#addDomainUp {
+	padding: 10px 40px;
+}
+.validateBox {
+	width: 596;
+	background: rgb(240, 240, 240);
+	padding: 10px;
+	border-radius: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+#timeInterval {
+	margin-left: 30px;
+}
+#adminSec {
+	width: 439px;
+	padding-left: 5px;
+}
+.title {
+	float: left;
+	padding: 10px;
+	background: rgb(190, 190, 190);
+	color: white;
+	border-radius: 5px 5px 0 0;
+	border: rgb(255, 255, 255) solid 1px;
+	border-bottom: none;
+	cursor: pointer;
+}
+.titleUp {
+	float: left;
+	padding: 10px;
+	background: rgb(190, 190, 190);
+	color: white;
+	border-radius: 5px 5px 0 0;
+	border: rgb(255, 255, 255) solid 1px;
+	border-bottom: none;
+	cursor: pointer;
+}
+.hide {
+	display: none;
+}
+.title.selected {
+	background: rgb(108, 150, 69);
+}
+#updateOnglet.title.selected {
+	background: #FF4A26;
+}
